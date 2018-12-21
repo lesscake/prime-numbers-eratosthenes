@@ -8,7 +8,7 @@ def all_primes(n):
   return primes
 
 def is_prime(x):
-  if x == 0 or x == 1:
+  if x < 2:
     return False
 
   for i in range(2, x):
