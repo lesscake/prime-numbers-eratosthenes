@@ -6,7 +6,7 @@ def all_primes(n):
   for i, boolean in enumerate(table):
     if boolean:
       primes.append(i)
-      for j in range(i, n, i):
+      for j in range(i+i, n, i):
         table[j] = False
 
   return primes
