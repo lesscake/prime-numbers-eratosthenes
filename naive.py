@@ -1,4 +1,4 @@
-def list_primes(n):
+def all_primes(n):
   primes = []
 
   for i in range(0, n+1):
@@ -18,4 +18,4 @@ def is_prime(x):
   return True
 
 if __name__ == '__main__':
-  print(list_primes(100))
+  print(all_primes(100))

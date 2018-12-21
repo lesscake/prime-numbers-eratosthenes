@@ -1,4 +1,4 @@
-def list_primes(n):
+def all_primes(n):
   table = [ True ] * n
   table[0] = table[1] = False
   primes = []
@@ -12,4 +12,4 @@ def list_primes(n):
   return primes
 
 if __name__ == '__main__':
-  print(list_primes(100))
+  print(all_primes(100))
